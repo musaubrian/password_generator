@@ -22,19 +22,19 @@ nums = input("Would you like to use numbers? ")
 print()
 
 # use of symbols
-if (sym == "y"):
+if sym == "y":
     syms = True
 else:
     syms = False
 
 # use of lowercase letters
-if(lower == "y"):
+if lower == "y":
     lower = True
 else:
     lower = False
 
 # use of numbers
-if(nums == "y"):
+if nums == "y":
     nums = True
 else:
     nums = False
