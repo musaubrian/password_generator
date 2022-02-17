@@ -1,3 +1,7 @@
+
+
+
+
 import time
 import random
 
@@ -70,7 +74,8 @@ for p in range(amount):
     final_pass = "".join(random.sample(empty_pass, length))
     print("[~]", final_pass)
     time.sleep(0.5)
-
+    print(" "*10)
+    time.sleep(0.5)
 leave = input("Leave terminal? ")
 if (leave == "y"):
     print("~"*50)
